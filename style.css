@@ -1,0 +1,66 @@
+body {
+  background: #12395c;
+  display: flex;
+  align-items: center;
+  height: 90vh;
+}
+.circle {
+  border: 14px solid #ffffff;
+  border-radius: 100%;
+  position: relative;
+  height: 230px;
+  width: 230px;
+  margin: 0 auto;
+}
+.numbers {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.number-12 {
+  top: 10px;
+  position: absolute;
+}
+.number-3 {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+}
+.number-6 {
+  position: absolute;
+  bottom: 10px;
+}
+.number-9 {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+
+.pointer {
+  width: 90px;
+  height: 4px;
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  display: flex;
+  left: 10%;
+  transform-origin: 100%;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  border-radius: 50px;
+}
+
+.pointer-hours {
+  width: 70px;
+  background-color: red;
+  left: 44px;
+}
+.pointer-mins {
+  height: 2px;
+}
