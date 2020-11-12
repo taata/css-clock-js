@@ -4,6 +4,5 @@ https://javascript30.com/
 
 For see, open index.html in your browser :D
 
-![image](https://user-images.githubusercontent.com/3718574/98884904-cfba6080-246f-11eb-8291-8a2ec8781f48.png)
 
-
+![css-clock-js](https://user-images.githubusercontent.com/3718574/98885236-71da4880-2470-11eb-92b0-7e426679daa0.gif)
